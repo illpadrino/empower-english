@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <g id="Grupo_29" data-name="Grupo 29" transform="translate(-0.418 0.134)">
+    <circle id="Elipse_4" data-name="Elipse 4" cx="46" cy="46" r="46" transform="translate(0.418 -0.134)" fill="#3ce2d6"/>
+    <g id="Grupo_14" data-name="Grupo 14" transform="translate(10.203 33.994)">
+      <path id="Star" d="M15.684,4.875l3.5,8.231,9.041.963-6.735,5.91,1.78,8.815-7.589-4.75L8.1,28.794l1.78-8.815-6.735-5.91,9.041-.963Z" transform="translate(-3.141 -4.875)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.517"/>
+      <path id="Star-2" data-name="Star" d="M17.788,4.875l3.5,8.231,9.041.963L23.6,19.979l1.78,8.815-7.589-4.75L10.2,28.794l1.78-8.815-5.031-5.91,7.337-.963Z" transform="translate(18.444 -4.875)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.517"/>
+      <path id="Star-3" data-name="Star" d="M17.788,4.875l3.5,8.231,9.041.963L23.6,19.979l1.78,8.815-7.589-4.75L10.2,28.794l1.78-8.815-5.031-5.91,7.337-.963Z" transform="translate(41.444 -4.875)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.517"/>
+    </g>
+  </g>
+</svg>

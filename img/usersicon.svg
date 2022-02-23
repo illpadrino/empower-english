@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71.176" height="71.176" viewBox="0 0 71.176 71.176">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_3" data-name="Rectángulo 3" width="71.176" height="71.176" transform="translate(-0.064 -0.058)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Accounts" transform="translate(0.064 0.058)" clip-path="url(#clip-path)">
+    <path id="Trazado_58" data-name="Trazado 58" d="M22.3,30.849A11.049,11.049,0,1,0,11.25,19.8,11.049,11.049,0,0,0,22.3,30.849Z" transform="translate(2.243 1.748)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.517"/>
+    <path id="Trazado_59" data-name="Trazado 59" d="M46.116,23.483a7.366,7.366,0,1,0-7.366-7.366A7.366,7.366,0,0,0,46.116,23.483Z" transform="translate(7.154 1.748)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.517"/>
+    <path id="Trazado_60" data-name="Trazado 60" d="M24.085,32.5A22.831,22.831,0,0,0,1.25,55.336v.737H46.92v-.737A22.831,22.831,0,0,0,24.085,32.5Z" transform="translate(0.457 5.989)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.517"/>
+    <path id="Trazado_61" data-name="Trazado 61" d="M31.828,37.815a16.2,16.2,0,0,1,31.729,4.641v1.473H37.721" transform="translate(5.918 4.873)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2.517"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <g id="Grupo_25" data-name="Grupo 25" transform="translate(-0.027)">
+    <circle id="Elipse_4" data-name="Elipse 4" cx="46" cy="46" r="46" transform="translate(0.027)" fill="#a0d85b"/>
+    <g id="Grupo_14" data-name="Grupo 14" transform="translate(11.409 29.135)">
+      <path id="Star" d="M20.9,4.875l4.958,11.652,12.8,1.364L29.12,26.257l2.52,12.478L20.9,32.011,10.154,38.736l2.52-12.478L3.141,17.89l12.8-1.364Z" transform="translate(-3.141 -4.875)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.517"/>
+      <path id="Star-2" data-name="Star" d="M22.294,4.875l4.958,11.652,12.8,1.364-9.534,8.367,2.52,12.478L22.294,32.011,11.551,38.736l2.52-12.478L6.949,17.89l10.387-1.364Z" transform="translate(28.999 -4.875)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.517"/>
+    </g>
+  </g>
+</svg>

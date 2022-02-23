@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_17" data-name="Rectángulo 17" width="42" height="41" transform="translate(-0.292 0.375)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_30" data-name="Grupo 30" transform="translate(0.394)">
+    <circle id="Elipse_4" data-name="Elipse 4" cx="46" cy="46" r="46" transform="translate(-0.394)" fill="#8956ae"/>
+    <g id="Accounts" transform="translate(15.898 31.625)" clip-path="url(#clip-path)">
+      <path id="Trazado_74" data-name="Trazado 74" d="M17.658,21.567a6.408,6.408,0,1,0-6.408-6.408A6.408,6.408,0,0,0,17.658,21.567Z" transform="translate(-3.726 -2.951)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.517"/>
+      <path id="Trazado_75" data-name="Trazado 75" d="M43.022,17.3a4.272,4.272,0,1,0-4.272-4.272A4.272,4.272,0,0,0,43.022,17.3Z" transform="translate(-12.428 -2.951)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.517"/>
+      <path id="Trazado_76" data-name="Trazado 76" d="M14.494,32.5A13.242,13.242,0,0,0,1.25,45.745v.427H27.738v-.427A13.242,13.242,0,0,0,14.494,32.5Z" transform="translate(-0.562 -10.466)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.517"/>
+      <path id="Trazado_77" data-name="Trazado 77" d="M31.828,32.958a9.4,9.4,0,0,1,18.4,2.691V36.5H35.246" transform="translate(-10.238 -8.488)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.517"/>
+    </g>
+    <g id="Message_2" transform="translate(55.378 17.089)">
+      <path id="Trazado_78" data-name="Trazado 78" d="M6.25,25.587l5.924-1.208a10.914,10.914,0,1,0-4.716-4.716Z" transform="translate(-6.25 -3.749)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Trazado_79" data-name="Trazado 79" d="M15,28.749H29.194" transform="translate(-11.178 -17.83)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Trazado_80" data-name="Trazado 80" d="M15,21.249H29.194" transform="translate(-11.178 -13.606)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Trazado_81" data-name="Trazado 81" d="M15,36.249h9.827" transform="translate(-11.178 -22.055)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

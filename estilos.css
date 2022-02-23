@@ -1,0 +1,726 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    display: none;
+    background-color: white;
+    z-index: 1;
+}
+
+.active{
+    display: block;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.listaDos{
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.listaDos a{
+    color: #707070;
+    font-family: 'roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.vertical{
+    width: 2px;
+    height: 15px;
+    background-color: #707070;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.burguerMenu{
+    margin-top: 29.54px;
+    margin-right: 36.5px;
+}
+
+.seccionUno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorTitulo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenedorTitulo h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 37px;
+    font-family: 'roboto', sans-serif;
+}
+
+.botonAccion{
+    margin-top: 30px;
+    padding: 16px 66px;
+    background-color: #41E2D3;
+    border-radius: 10px;
+}
+
+.botonAccion a{
+    text-decoration: none;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+}
+
+.contenedorImagen{
+    width: 350px;
+}
+
+.contenedorImagen img{
+    width: 100%;
+}
+
+.contenedorTituloSecundario h2{
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.seccionDos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #CAF2EE83;
+    width: 100vw;
+}
+
+.seccionDos h2{
+    text-align: center;
+    margin: 30px;
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+}
+
+.iconsContenedor{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+.icons {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 250px;
+   margin-bottom: 40px;
+ }
+
+ .icons p{
+     text-align: center;
+     margin-top: 10px;
+     line-height: 25px;
+     font-size: 18px;
+     font-family: 'roboto', sans-serif;
+ }
+
+/* .contenedorFotoLaptop{
+    width: 360px;
+} */
+
+.contenedorFotoLaptop img{
+    width: 100%;
+}
+
+.listaDeVentajas{
+    width: 100vw;
+}
+
+.listaDeVentajas h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'roboto', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 13px;
+}
+
+.listaDeVentajas h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.checkList{
+    display: flex;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.checkList img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.checkList p{
+    font-size: 17px;
+    font-family: 'roboto', sans-serif;
+    line-height: 25px;
+}
+
+
+.seccionCuarta{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    align-items: center;
+}
+
+.seccionCuarta h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.lineaVertical{
+    width: 2px;
+    height: 40px;
+    background-color: #707070;
+    margin: 20px 0px;
+}
+
+.card{
+    background-color: white;
+    width: 360px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card img{
+    width: 50px;
+    height: 51px;
+    margin-top: 20px;
+   
+}
+
+.card article{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 50px 50px;
+    margin: 0px 30px;
+    font-family: 'roboto', sans-serif;
+}
+
+.basico{
+    color: #F1E609;
+    font-size: 29px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.intermedio{
+    color: #A0D85B;
+    font-size: 29px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.avanzado{
+    color: #3CE2D6;
+    font-size: 29px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.conversacion{
+    color: #8956AE;
+    font-size: 29px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: #EDFFFE;
+}
+
+.logoFooter{
+    margin-top: 30px;
+    text-align: center;
+    width: 320px;
+}
+
+.logoFooter img{
+    width: 90%;
+}
+
+.logoRedesSociales{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.iconsRedes{
+    width: 40px;
+    margin-top: 50px;
+   
+}
+
+
+.iconsRedes img{
+    width: 100%;
+    
+}
+
+.menuFooter{
+    margin-top: 30px;
+}
+
+.menuFooter li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.menuFooter li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+    color: black;
+}
+
+.contacto{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contacto p a{
+    text-decoration: none;
+    color: black;
+    line-height: 18px;
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+}
+
+.copy{
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.copy p{
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+    line-height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btnWsp{
+    width: 70px;
+    position: fixed;
+    top: 460px;
+    right: 20px;
+}
+
+.btnWsp img{
+    width: 100%;
+}
+
+/*Modo Desktop*/
+
+@media (min-width: 768px) {
+
+    body{
+        overflow-x:hidden;
+    }
+
+    .burguerMenu{
+        display: none;
+    }
+
+    header{
+        display: flex;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+
+    .logo{
+        width: 299.05px;
+        height: 96.22px;
+        margin-top: 54px;
+        margin-left: 80px;
+    }
+
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    ul{
+        width: 100%;
+        height: 0px;
+        position: absolute ;
+        left: 700px;
+        display: flex;
+        align-items: center;
+        margin-right: 80px;
+    }
+
+    ul li a{
+        margin-top: 100px;
+        margin-right: 29px;
+        font-size: 25px;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+  
+    
+    ul li a:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        background: #F1E609;
+        /*animacion de derecha a izquierda*/
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 0.2s ease-in-out;
+      }
+      ul li a:hover:after {
+        /*animacion de derecha a izquierda*/
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+
+    .listaDos{
+        display: none;
+    }
+
+     .seccionUno{
+        display: flex;
+        flex-direction: row;
+      
+    }
+
+    .contenedorTitulo{
+        width: 595px;
+        height: 367px;
+        margin-left: 80px;
+
+    }
+
+    .contenedorTitulo h1{
+        font-size: 55px;
+        line-height: 75px;
+        text-align: left;
+    }
+
+    .contenedorImagen{
+        width: 700px;
+        margin-top: 30px;
+       
+    }
+
+    .contenedorImagen img{
+        width: 100%;
+    }
+
+    .botonAccion{
+        margin-top: 30px;
+        padding: 16px 66px;
+        background-color: #41E2D3;
+        border-radius: 10px;
+
+        position: absolute;
+        left: 840px;
+        top: 150px
+    }
+
+    .botonAccion:hover{
+        background-color: #66F8EB;
+        cursor: pointer;
+    }
+
+   
+
+    .contenedorTituloSecundario h2{
+        font-family: 'roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 65px;
+        
+        width: 466px;
+        height: 150px;
+        position: absolute;
+        left: 80px;
+        bottom: -20px
+    }
+
+    .seccionDos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #CAF2EE83;
+        width: 100vw;
+        height: 500px;
+        margin-top: 30px;
+       
+    }
+
+    .iconsContenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .seccionDos h2{
+        text-align: center;
+        margin: 70px;
+        font-family: 'roboto', sans-serif;
+        font-size: 55px;
+    }
+
+    .icons{
+        width: 320px;
+    }
+
+    .icons p{
+        text-align: center;
+        margin-top: 10px;
+        line-height: 35px;
+        font-size: 24px;
+        font-family: 'roboto', sans-serif;
+    }
+
+    .seccionTres{
+        display: flex;
+    }
+
+    .contenedorFotoLaptop{
+        width: 700px;
+        height: 885px;
+    }
+
+    .contenedorFotoLaptop img{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .listaDeVentajas{
+        width: 900px;
+        height: 698px;
+        border: solid #707070;
+        position: absolute;
+        background-color: white;
+        left: 500px;
+        bottom: -1350px;
+    }
+    
+    .listaDeVentajas h3{
+        text-align: center;
+        font-size: 20px;
+        font-weight: lighter;
+        font-family: 'roboto', sans-serif;
+        margin-top: 30px;
+        margin-bottom: 13px;
+    }
+
+
+    
+    .listaDeVentajas h3{
+        text-align: left;
+        font-size: 25px;
+        font-weight: lighter;
+        font-family: 'roboto', sans-serif;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 13px;
+    }
+
+    .listaDeVentajas h2{
+        text-align: left;
+        font-size: 50px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    .checkList{
+        display: flex;
+        margin-bottom: 50px;
+        margin-right: 10px;
+    }
+
+    .checkList img{
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .checkList p{
+        font-size: 25px;
+        font-family: 'roboto', sans-serif;
+        line-height: 30px;
+    }
+
+    .seccionCuarta{
+        width: 100vw;
+    }
+
+    .seccionCuarta h2{
+        text-align: center;
+        font-size: 70px;
+        text-transform: uppercase;
+        font-family: 'roboto', sans-serif;
+        font-weight: bold;
+        margin-top: 130px;
+    }
+
+    .lineaVertical{
+        width: 2px;
+        height: 40px;
+        background-color: #707070;
+        margin: 20px 0px;
+    }
+
+    .cardContenedor{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .card{
+        background-color: white;
+        width: 500px;
+        height: 650px;
+        margin: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        padding-bottom: 50px;
+        border-radius: 20px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .card h3{
+        font-size: 42px;
+    }
+
+    .card article{
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        padding-bottom: 50px 50px;
+        margin: 0px 30px;
+        font-family: 'roboto', sans-serif;
+    }
+
+    .card img{
+        width: 80px;
+        height: 81px;
+        margin-top: 20px;
+    
+    }
+
+    .menuFooter li a{
+        position: relative;
+    }
+
+    .menuFooter li a:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        background: #F1E609;
+        /*animacion de derecha a izquierda*/
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 0.2s ease-in-out;
+    }
+    .menuFooter li a:hover:after {
+        /*animacion de derecha a izquierda*/
+        transform-origin: left;
+        transform: scaleX(1);
+    }
+
+    .iconsRedes:hover{
+        transform: scale(1.5);
+        transition: transform 0.2s ease-in-out;
+    }
+
+}
